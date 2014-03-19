@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "description": "A commandline to find haolicai",
   "main": "index.js",
+  "bin": {
+    "haolicai": "./bin/haolicai"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
